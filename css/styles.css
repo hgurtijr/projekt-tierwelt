@@ -17,6 +17,10 @@ header {
 }
 
 .tier-galerie {
+  width: 120px
+}
+
+.old_tier-galerie {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
