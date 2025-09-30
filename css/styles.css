@@ -16,10 +16,9 @@ body {
   text-align: center;
 } */
 
-.tier-galerie {
+img {
   width: 120px;
   height: auto;
-  display: inline;;
 }
 /* 
 .old_tier-galerie {
