@@ -7,7 +7,7 @@ body {
   color: #333;
   line-height: 1.6;
 }
- 
+
 /* ----------- Header ----------- */
 header {
   text-align: center;
@@ -15,24 +15,24 @@ header {
   color: white;
   padding: 2rem 1rem;
 }
- 
+
 header h1 {
   margin: 0;
   font-size: 2.5rem;
 }
- 
+
 header p {
   margin-top: 0.5rem;
   font-size: 1.2rem;
 }
- 
+
 /* ----------- Main Content ----------- */
 main {
   max-width: 1100px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
- 
+
 /* ----------- Überschriften ----------- */
 h2 {
   margin-top: 2rem;
@@ -40,13 +40,13 @@ h2 {
   border-bottom: 2px solid #66bb6a;
   padding-bottom: 0.3rem;
 }
- 
+
 /* ----------- Steckbrief Liste ----------- */
 ul {
   list-style: none;
   padding: 0;
 }
- 
+
 ul li {
   background: #ffffff;
   margin: 0.5rem 0;
@@ -54,7 +54,7 @@ ul li {
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
- 
+
 /* ----------- Bildergalerie (Einzelseiten) ----------- */
 .bildergalerie {
   display: grid;
@@ -62,7 +62,7 @@ ul li {
   margin-top: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
- 
+
 .bildergalerie figure {
   background: #fff;
   border-radius: 12px;
@@ -71,26 +71,26 @@ ul li {
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
 }
- 
+
 .bildergalerie figure:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
- 
+
 .bildergalerie img {
   width: 100%;
   height: 200px;
   object-fit: cover;
   display: block;
 }
- 
+
 .bildergalerie figcaption {
   padding: 0.8rem;
   font-size: 0.9rem;
   background: #f9f9f9;
   color: #555;
 }
- 
+
 /* ----------- Index-Seite: Tier-Karten ----------- */
 .tier-galerie {
   display: grid;
@@ -98,7 +98,7 @@ ul li {
   gap: 2rem;
   padding: 2rem 0;
 }
- 
+
 .tier {
   background: #ffffff;
   border-radius: 12px;
@@ -107,29 +107,29 @@ ul li {
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
 }
- 
+
 .tier:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
- 
+
 .tier img {
   max-width: 100%;
   height: 180px;
   object-fit: cover;
   border-radius: 10px;
 }
- 
+
 .tier h2 {
   color: #2e7d32;
   margin: 0.8rem 0;
 }
- 
+
 .tier p {
   font-size: 0.95rem;
   margin-bottom: 1rem;
 }
- 
+
 .tier a {
   display: inline-block;
   text-decoration: none;
@@ -140,11 +140,11 @@ ul li {
   font-weight: bold;
   transition: background 0.2s;
 }
- 
+
 .tier a:hover {
   background: #1b5e20;
 }
- 
+
 /* ----------- Footer ----------- */
 footer {
   margin-top: 3rem;
@@ -153,12 +153,10 @@ footer {
   color: white;
   padding: 1.5rem;
 }
- 
+
 footer h2 {
   border: none;
   margin-bottom: 0.5rem;
   color: white;
 }
- 
- 
- 
+
