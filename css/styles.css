@@ -105,6 +105,8 @@ ul li {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 1rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -139,6 +141,7 @@ ul li {
   border-radius: 8px;
   font-weight: bold;
   transition: background 0.2s;
+  align-self: flex-end;
 }
 
 .tier a:hover {
